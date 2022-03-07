@@ -15,7 +15,7 @@ Some bioinformatic tools are neccessary for above scripts. Most of them are reco
 
 NextGenMap v0.5.5 (https://github.com/Cibiv/NextGenMap/)
 
-samtools v1.9 (https://github.com/samtools/samtools)
+SAMtools v1.9 (https://github.com/samtools/samtools)
 
 NOVOPlasty v4.3.1 (https://github.com/ndierckx/NOVOPlasty)
 
