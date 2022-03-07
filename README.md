@@ -17,7 +17,7 @@ samtools v1.9 (https://github.com/samtools/samtools)
 
 NOVOPlasty v4.3.1 (https://github.com/ndierckx/NOVOPlasty)
 
-Seqkit (https://github.com/shenwei356/seqkit)
+Seqkit v2.0.0 (https://github.com/shenwei356/seqkit)
 
 Vsearch v2.14.2(https://github.com/torognes/vsearch)
 
