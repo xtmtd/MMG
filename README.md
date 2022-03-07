@@ -41,4 +41,4 @@ Chcek these four notes after the assembly carefully although more details have b
 
 ## Contact
 
-Please send emails to Dr. Feng Zhang (xtmtd.zf at gmail.com).
+Please send emails to Dr. Feng Zhang (xtmtd.zf@gmail.com).
