@@ -7,9 +7,7 @@ MMG assembly procedure for each dataset was completed in a few hours on desktop 
 ![image](https://user-images.githubusercontent.com/45136134/157005857-7e00689b-0d7a-4009-993b-9162a634420a.png)
 
 
-#
-
-Requirements
+## Requirements
 
 Some bioinformatic tools are neccessary for above scripts. Most of them are recommended to be added into the environmental paths. Softwares, versions and source ate listed below.
 
@@ -24,9 +22,7 @@ Seqkit (https://github.com/shenwei356/seqkit)
 Vsearch v2.14.2(https://github.com/torognes/vsearch)
 
 
-##
-
-User manual
+## User manual
 
 Type 'bash MMG.sh'
 
@@ -41,8 +37,6 @@ Chcek these four notes after the assembly carefully although more details have b
   4、All assembled sequences are deposited in 1-assembly/novoplasty.fasta. Don't forget to delete chimera or replace the incorrect sequences!
 
 
-#
-
-Contact
+## Contact
 
 Please send emails to Dr. Feng Zhang (xtmtd.zf at gmail.com).
