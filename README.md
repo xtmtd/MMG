@@ -1,4 +1,4 @@
-# MMG —— a tool for evolutionary and ecological studies using Illumina sequencers for mixed-species samples
+# MMG —— a script for evolutionary and ecological studies using Illumina sequencers for mixed-species samples
 
 ## Introduction
 
@@ -25,10 +25,6 @@ Vsearch v2.14.2 (https://github.com/torognes/vsearch)
 
 
 ## User manual
-
- ● Simulate Illumina sequencing reads:
-
-    art_illumina -ss HSXn -i GENOME.fasta -p -l 150 -f 200 -m 300 -s 30 -na -qs 30 -qs2 30 -o SPECIES.mito.
 
  ● Merge all the forward or reverse reads：
 
