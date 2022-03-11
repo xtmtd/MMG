@@ -1,4 +1,4 @@
-# MMG —— a script for evolutionary and ecological studies using Illumina sequencers for mixed-species samples
+# MMG.sh —— a script for evolutionary and ecological studies using Illumina sequencers for mixed-species samples
 
 ## Introduction
 
