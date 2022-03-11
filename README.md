@@ -24,39 +24,31 @@ Seqkit v2.0.0 (https://github.com/shenwei356/seqkit)
 Vsearch v2.14.2(https://github.com/torognes/vsearch)
 
 
-## imulate Illumina sequencing reads
-
-   art_illumina -ss HSXn -i GENOME.fasta -p -l 150 -f 200 -m 300 -s 30 -na -qs 30 -qs2 30 -o SPECIES.mito.
-
-## merge all the forward or reverse reads
-
-   cat *.1.fq | pigz -p $THREADS -c > 1.fq.gz
-
-   cat *.2.fq | pigz -p $THREADS -c > 2.fq.gz
-
 ## User manual
 
-imulate Illumina sequencing reads:
+ ● Imulate Illumina sequencing reads:
 
-   art_illumina -ss HSXn -i GENOME.fasta -p -l 150 -f 200 -m 300 -s 30 -na -qs 30 -qs2 30 -o SPECIES.mito.
+    art_illumina -ss HSXn -i GENOME.fasta -p -l 150 -f 200 -m 300 -s 30 -na -qs 30 -qs2 30 -o SPECIES.mito.
 
-merge all the forward or reverse reads：
+ ● Merge all the forward or reverse reads：
 
-   cat *.1.fq | pigz -p $THREADS -c > 1.fq.gz
+    cat *.1.fq | pigz -p $THREADS -c > 1.fq.gz
 
-   cat *.2.fq | pigz -p $THREADS -c > 2.fq.gz
+    cat *.2.fq | pigz -p $THREADS -c > 2.fq.gz
 
-Type 'bash MMG.sh'
+ ● Assemble the mitochondrial genomes using MMG.sh:
+    
+   Type 'bash MMG.sh'
 
 Chcek these four notes after the assembly carefully although more details have been described in this script: 
 
-  1. Check the file '1-assembly/seeds_vs_mitogenome.txt', which aligned seed sequecnes to the assemblies. The identity (the third column) and the seed cover ratio (the fourth column) may be useful for the final determination.
+   1. Check the file '1-assembly/seeds_vs_mitogenome.txt', which aligned seed sequecnes to the assemblies. The identity (the third column) and the seed cover ratio (the fourth column) may be useful for the final determination.
 
-  2. For the species failed to assemble (listed in 1-assembly/round2/list.fail), carefully scan their NOVOPlasty assembly progress in the folder 1-assembly/roundX/ and encourage to assemble them separately by adjusting parameters, such as k-mer values. Some 'failed' species may be due to their shorter length (< 10,000 bp, see the file 'list.incomplete'), and you can recover them to the 'correct' ones depending on your aims.
+   2. For the species failed to assemble (listed in 1-assembly/round2/list.fail), carefully scan their NOVOPlasty assembly progress in the folder 1-assembly/roundX/ and encourage to assemble them separately by adjusting parameters, such as k-mer values. Some 'failed' species may be due to their shorter length (< 10,000 bp, see the file 'list.incomplete'), and you can recover them to the 'correct' ones depending on your aims.
 
-  3. Check the file '2-chimera/possible_chimera.list', which listed the possible chimera sequences. Carefully curate them! Aligning results '2-chimera/XXX/blast.out' and new assembly results in the same folder may provide some hints.
+   3. Check the file '2-chimera/possible_chimera.list', which listed the possible chimera sequences. Carefully curate them! Aligning results '2-chimera/XXX/blast.out' and new assembly results in the same folder may provide some hints.
 
-  4. All assembled sequences are deposited in 1-assembly/novoplasty.fasta. Don't forget to delete chimera or replace the incorrect sequences!
+   4. All assembled sequences are deposited in 1-assembly/novoplasty.fasta. Don't forget to delete chimera or replace the incorrect sequences!
 
 
 ## Contact
