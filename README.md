@@ -36,24 +36,24 @@ Vsearch v2.14.2 (https://github.com/torognes/vsearch)
     
   Type 'bash MMG.sh'
   
-
+  √ Some tips:
    
-   1. According to the script, it will check the installation directory of NextGenMap, NOVOPlasty, Samtools, Seqkit and Vsearch automatically. Please input the installation directory (absolute path, e.g. /usr/local/bin) as prompted if are not found.
+   1. The script will check the installation directory of NextGenMap, NOVOPlasty, Samtools, Seqkit and Vsearch automatically. Please input the installation directory (absolute path, e.g. /usr/local/bin) as prompted if is not found.
    
    2. input the name (with its path) of reference mitogenome file
    
-   3. input the name (with its path) of forward Fastq file (e.g. 1.fq, 1.fastq, or gzipped)
+   3. input the name (with its path) of forward Fastq file (e.g. illumina.R1.fq.gz)
    
-   4. input the name (with its path) of reverse Fastq file (e.g. 2.fq, 2.fastq, or gzipped)
+   4. input the name (with its path) of reverse Fastq file (e.g. illumina.R2.fq.gz)
    
-   5. input the name (with its path) of seed file (e.g. seed.fasta)
+   5. input the name (with its path) of seed file
    
    6. input the read length of sequencing data (e.g. 150, 250)
    
    7. input the number of threads/cores (e.g. 8)
    
 
-  Chcek these four notes after the assembly carefully although more details have been described in this script: 
+  √ Chcek these four notes after the assembly carefully although more details have been described in this script: 
 
    1. Check the file '1-assembly/seeds_vs_mitogenome.txt', which aligned seed sequecnes to the assemblies. The identity (the third column) and the seed cover ratio (the fourth column) may be useful for the final determination.
 
