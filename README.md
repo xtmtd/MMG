@@ -4,7 +4,7 @@
 
 Mitochondrial metagenomics (MMG) pipeline for the rapid mitogenome assembly, integrating a fast, accurate read mapper for filtering non-mitochondrial reads, a seed-and-extend assembler for assembling species-specific mitogenomes while detecting ‘noisy’ species/sequences potentially obstructing target assembly.
 
-MMG assembly procedure for each dataset was completed in a few hours on desktop PCs while maintaining high accuracy and completeness except for some very closely related taxa. Excluding ‘noisy’ reads including chimera of non-targeted species could improve the target assembly, par-ticularly for those closely-related species. Short barcodes as the reference can have almost identical detection power but require at least an order of magnitude greater sequencing depth than mitogenomes. Sequencing amount of 1 Gbp per bulk sample is usually sufficient to detect species richness and abundance against mitogenome reference.
+MMG assembly procedure for each dataset was completed in a few hours on desktop PCs while maintaining high accuracy and completeness except for some very closely related taxa. Excluding ‘noisy’ reads including chimera of non-targeted species could improve the target assembly, particularly for those closely related-species. Short barcodes as the reference can have almost identical detection power but require at least an order of magnitude greater sequencing depth than mitogenomes. Sequencing amount of 1 Gbp per bulk sample is usually sufficient to detect species richness and abundance against mitogenome reference.
 
 ![image](https://user-images.githubusercontent.com/45136134/157005857-7e00689b-0d7a-4009-993b-9162a634420a.png)
 
@@ -34,11 +34,26 @@ Vsearch v2.14.2 (https://github.com/torognes/vsearch)
 
  ● Assemble the mitochondrial genomes using MMG.sh:
     
-   Type 'bash MMG.sh'
+  Type 'bash MMG.sh'
+  
+
+   
+   1. According to the script, it will check the installation directory of NextGenMap, NOVOPlasty, Samtools, Seqkit and Vsearch automatically. Please input the installation directory (absolute path, e.g. /usr/local/bin) as prompted if are not found.
+   
+   2. input the name (with its path) of reference mitogenome file
+   
+   3. input the name (with its path) of forward Fastq file (e.g. 1.fq, 1.fastq, or gzipped)
+   
+   4. input the name (with its path) of reverse Fastq file (e.g. 2.fq, 2.fastq, or gzipped)
+   
+   5. input the name (with its path) of seed file (e.g. seed.fasta)
+   
+   6. input the read length of sequencing data (e.g. 150, 250)
+   
+   7. input the number of threads/cores (e.g. 8)
    
 
-
-Chcek these four notes after the assembly carefully although more details have been described in this script: 
+  Chcek these four notes after the assembly carefully although more details have been described in this script: 
 
    1. Check the file '1-assembly/seeds_vs_mitogenome.txt', which aligned seed sequecnes to the assemblies. The identity (the third column) and the seed cover ratio (the fourth column) may be useful for the final determination.
 
