@@ -26,7 +26,7 @@ Vsearch v2.14.2 (https://github.com/torognes/vsearch)
 
 ## User manual
 
- ● Imulate Illumina sequencing reads:
+ ● Simulate Illumina sequencing reads:
 
     art_illumina -ss HSXn -i GENOME.fasta -p -l 150 -f 200 -m 300 -s 30 -na -qs 30 -qs2 30 -o SPECIES.mito.
 
