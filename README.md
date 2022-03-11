@@ -24,7 +24,27 @@ Seqkit v2.0.0 (https://github.com/shenwei356/seqkit)
 Vsearch v2.14.2(https://github.com/torognes/vsearch)
 
 
+## imulate Illumina sequencing reads
+
+   art_illumina -ss HSXn -i GENOME.fasta -p -l 150 -f 200 -m 300 -s 30 -na -qs 30 -qs2 30 -o SPECIES.mito.
+
+## merge all the forward or reverse reads
+
+   cat *.1.fq | pigz -p $THREADS -c > 1.fq.gz
+
+   cat *.2.fq | pigz -p $THREADS -c > 2.fq.gz
+
 ## User manual
+
+imulate Illumina sequencing reads:
+
+   art_illumina -ss HSXn -i GENOME.fasta -p -l 150 -f 200 -m 300 -s 30 -na -qs 30 -qs2 30 -o SPECIES.mito.
+
+merge all the forward or reverse reads：
+
+   cat *.1.fq | pigz -p $THREADS -c > 1.fq.gz
+
+   cat *.2.fq | pigz -p $THREADS -c > 2.fq.gz
 
 Type 'bash MMG.sh'
 
