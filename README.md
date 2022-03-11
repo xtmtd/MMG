@@ -1,6 +1,6 @@
 # MMG —— a tool for evolutionary and ecological studies using Illumina sequencers for mixed-species samples
 
-# Introduction
+## Introduction
 
 Mitochondrial metagenomics (MMG) pipeline for the rapid mitogenome assembly, integrating a fast, accurate read mapper for filtering non-mitochondrial reads, a seed-and-extend assembler for assembling species-specific mitogenomes while detecting ‘noisy’ species/sequences potentially obstructing target assembly.
 
