@@ -40,17 +40,17 @@ Vsearch v2.14.2 (https://github.com/torognes/vsearch)
    
    1. The script will check the installation directory of NextGenMap, NOVOPlasty, Samtools, Seqkit and Vsearch automatically. Please input the installation directory (absolute path, e.g. /usr/local/bin) as prompted if is not found.
    
-   2. input the name (with its path) of reference mitogenome file
+   2. input the name (with its path) of the reference mitogenome FASTA file used for filtering non-mitochondrial reads. They are usually downloaded from NCBI based on target taxa.
    
-   3. input the name (with its path) of forward Fastq file (e.g. illumina.R1.fq.gz)
+   3. input the name (with its path) of forward Fastq file (e.g. illumina.R1.fq.gz).
    
-   4. input the name (with its path) of reverse Fastq file (e.g. illumina.R2.fq.gz)
+   4. input the name (with its path) of reverse Fastq file (e.g. illumina.R2.fq.gz).
    
-   5. input the name (with its path) of seed file
+   5. input the name (with its path) of seed file, e.g. COI barcode sequences of each species.
    
-   6. input the read length of sequencing data (e.g. 150, 250)
+   6. input the read length of sequencing data (e.g. 150, 250).
    
-   7. input the number of threads/cores (e.g. 8)
+   7. input the number of threads/cores (e.g. 8).
    
 
   √ Chcek these four notes after the assembly carefully although more details have been described in this script: 
