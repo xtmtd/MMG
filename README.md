@@ -4,7 +4,7 @@
 
 Mitochondrial metagenomics (MMG) pipeline for the rapid mitogenome assembly, integrating a fast, accurate read mapper for filtering non-mitochondrial reads, a seed-and-extend assembler for assembling species-specific mitogenomes while detecting ‘noisy’ species/sequences potentially obstructing target assembly.
 
-MMG assembly procedure for each dataset was completed in a few hours on desktop PCs while maintaining high accuracy and completeness except for some very closely related taxa. Excluding ‘noisy’ reads including chimera of non-targeted species could improve the target assembly, particularly for those closely related-species. Short barcodes as the reference can have almost identical detection power but require at least an order of magnitude greater sequencing depth than mitogenomes. Sequencing amount of 1 Gbp per bulk sample is usually sufficient to detect species richness and abundance against mitogenome reference.
+MMG assembly procedure for each dataset was completed in a few hours on desktop PCs while maintaining high accuracy and completeness except for some very closely related taxa. Excluding ‘noisy’ reads including chimera of non-targeted species could improve the target assembly, particularly for those closely related-species.
 
 ![image](https://user-images.githubusercontent.com/45136134/157005857-7e00689b-0d7a-4009-993b-9162a634420a.png)
 
