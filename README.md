@@ -63,6 +63,9 @@ Vsearch v2.14.2 (https://github.com/torognes/vsearch)
 
    4. All assembled sequences are deposited in 1-assembly/novoplasty.fasta. Don't forget to delete chimera or replace the incorrect sequences!
 
+## Citation
+
+Du, S.; Dong, J.; Godeiro, N.N.;Wu, J.; Zhang, F. Advancing Mitochondrial Metagenomics: A New Assembly Strategy and Validating the Power of Seed-Based Approach. Diversity 2022, 14, 317. https://doi.org/10.3390/d14050317
 
 ## Contact
 
