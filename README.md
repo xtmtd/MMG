@@ -6,7 +6,7 @@ Mitochondrial metagenomics (MMG) pipeline for the rapid mitogenome assembly, int
 
 MMG assembly procedure for each dataset was completed in a few hours on desktop PCs while maintaining high accuracy and completeness except for some very closely related taxa. Excluding ‘noisy’ reads including chimera of non-targeted species could improve the target assembly, particularly for those closely related-species.
 
-![image](https://user-images.githubusercontent.com/45136134/157005857-7e00689b-0d7a-4009-993b-9162a634420a.png)
+![image](https://user-images.githubusercontent.com/45136134/164358722-9d3a569a-223a-4efe-aca7-8b1a494ff201.png)
 
 
 ## Requirements
